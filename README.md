@@ -32,8 +32,8 @@ Here is an image of what we want once we are finished:
 
 It's recommended that you run `npm start` and work on this in the browser
 **before** running tests — try to get your app to match the demo! Once
-you've built out the components below, run `npm test` or `learn test` to see if
-your code passes the tests.
+you've built out the components below, run `npm test` to see if your code
+passes the tests.
 
 ### NavBar
 
@@ -50,15 +50,24 @@ Make sure each `<a>` element also gets a unique `key` prop.
 ### ProjectList
 
 In the `ProjectList` component, a prop of `projects` is being passed down from
-the `App` component with an array of objects. For each object in the array,
-render one `ProjectItem` component with the correct props. Use the `id` of the
-project for the `key` prop.
+the `App` component with an array of objects. 
+
+Investigate what the props look like by looking at the `console.log()` in the 
+browser console. Use that shape to create a `Props` interface to type the `props` 
+with.
+
+For each object in the array, render one `ProjectItem` component with the correct 
+props. Use the `id` of the project for the `key` prop.
 
 ### ProjectItem
 
 The `ProjectItem` component should get a prop of `technologies` passed down from
-`ProjectList`. For each element in this array of technologies, create a `<span>`
-tag that displays the name of the technology.
+`ProjectList`. 
+
+Create a `Props` interface to type the `technologies` prop appropriately.
+
+For each element in this array of technologies, create a `<span>` tag that displays 
+the name of the technology.
 
 ## Resources
 
