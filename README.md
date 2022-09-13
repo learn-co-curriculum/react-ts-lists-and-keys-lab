@@ -61,12 +61,12 @@ props. Use the `id` of the project for the `key` prop.
 
 ### ProjectItem
 
-The `ProjectItem` component should get a prop of `technologies` passed down from
-`ProjectList`. 
+The `ProjectItem` component should the props `name` `about` and `technologies` passed 
+down from `ProjectList`. 
 
-Create a `Props` interface to type the `technologies` prop appropriately.
+Create a `Props` interface to type the props appropriately.
 
-For each element in this array of technologies, create a `<span>` tag that displays 
+For each element in the array of `technologies`, create a `<span>` tag that displays 
 the name of the technology.
 
 ## Resources
