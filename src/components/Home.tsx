@@ -1,6 +1,10 @@
-import React from "react";
+interface Props {
+  color: string;
+  username: string;
+  city: string;
+}
 
-function Home({ color, username, city }) {
+function Home({ color, username, city }: Props) {
   return (
     <div id="home">
       <h1 style={{ color: color }}>

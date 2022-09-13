@@ -1,6 +1,9 @@
-import React from "react";
+interface Props {
+  github: string;
+  linkedin: string;
+}
 
-function Links({ github, linkedin }) {
+function Links({ github, linkedin }: Props) {
   return (
     <div>
       <h3>Links</h3>
