@@ -31,9 +31,15 @@ Here is an image of what we want once we are finished:
 ## Deliverables
 
 It's recommended that you run `npm start` and work on this in the browser
-**before** running tests — try to get your app to match the demo! Once
-you've built out the components below, run `npm test` to see if your code
-passes the tests.
+**before** running tests — try to get your app to match the demo! Once you've
+built out the components below, run `npm test` to see if your code passes the
+tests.
+
+> **Note**: There **will be some TypeScript errors** upon running the starter
+> code. That's okay, you will fix those as you go through the lab. To remove
+> those errors from the screen so you can observe your work before you fix them,
+> click
+> ![the white "X" in the top right corner](https://curriculum-content.s3.amazonaws.com/react-ts/lists-and-keys-lab/white-x.png).
 
 ### NavBar
 
@@ -50,24 +56,24 @@ Make sure each `<a>` element also gets a unique `key` prop.
 ### ProjectList
 
 In the `ProjectList` component, a prop of `projects` is being passed down from
-the `App` component with an array of objects. 
+the `App` component with an array of objects.
 
-Investigate what the props look like by looking at the `console.log()` in the 
-browser console. Use that shape to create a `Props` interface to type the `props` 
-with.
+Investigate what the props look like by looking at the `console.log()` in the
+browser console. Use that shape to create a `Props` interface to type the
+`props` with.
 
-For each object in the array, render one `ProjectItem` component with the correct 
-props. Use the `id` of the project for the `key` prop.
+For each object in the array, render one `ProjectItem` component with the
+correct props. Use the `id` of the project for the `key` prop.
 
 ### ProjectItem
 
-The `ProjectItem` component should the props `name` `about` and `technologies` passed 
-down from `ProjectList`. 
+The `ProjectItem` component should the props `name` `about` and `technologies`
+passed down from `ProjectList`.
 
 Create a `Props` interface to type the props appropriately.
 
-For each element in the array of `technologies`, create a `<span>` tag that displays 
-the name of the technology.
+For each element in the array of `technologies`, create a `<span>` tag that
+displays the name of the technology.
 
 ## Resources
 
