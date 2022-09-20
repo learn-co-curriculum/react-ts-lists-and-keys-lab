@@ -1,7 +1,14 @@
-import React from "react";
 import Links from "./Links";
 
-function About({ bio, links }) {
+interface Props {
+  bio: string;
+  links: {
+    github: string;
+    linkedin: string;
+  }
+}
+
+function About({ bio, links }: Props) {
   return (
     <div id="about">
       <h2>About Me</h2>
