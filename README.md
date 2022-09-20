@@ -37,8 +37,10 @@ tests.
 
 There **will be some TypeScript errors** upon running the starter code. That's
 okay, you will fix those as you go through the lab. To remove those errors from
-the screen so you can observe your work before you fix them, click
-![the white "X" in the top right corner](https://curriculum-content.s3.amazonaws.com/react-ts/lists-and-keys-lab/white-x.png).
+the screen so you can observe your work before you fix them, click the white "X"
+in the top right corner.
+
+![The white "X" in the top right corner](https://curriculum-content.s3.amazonaws.com/react-ts/lists-and-keys-lab/white-x.png)
 
 > **Note**: If this feels challenging as you go through the lab, that is okay!
 > React is a challenging framework. Don't be afraid to look back at previous
